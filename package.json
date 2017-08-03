@@ -1,0 +1,19 @@
+{
+  "name": "logger",
+  "version": "1.0.1",
+  "description": "Node class for logging color messages to the console",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "nyc": "^11.1.0"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha"
+  },
+  "author": "jackhkmatthews",
+  "license": "UNLICENSED"
+}
