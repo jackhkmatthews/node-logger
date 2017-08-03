@@ -13,7 +13,7 @@ This project was used as a learning tool for logging and Behaviour Driven Develo
 Import the class in your code, instantiate it and set the desired logging level from `['error', 'warn', 'info', 'success']`:
 
 ```js
-const Logger = require('../lib/logger.js');
+const Logger = require('../lib/logger.js').Logger;
 const logger = new Logger();
 logger.debugLevel = 'info';
 ```
